@@ -1,0 +1,22 @@
+{
+  "name": "timer_pomidor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antongap99/timer_pomidor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antongap99/timer_pomidor/issues"
+  },
+  "homepage": "https://github.com/antongap99/timer_pomidor#readme",
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
