@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "set NODE_ENV=developent&&webpack serve --open",
+    "dev": "set NODE_ENV=developent&&webpack",
+    "build": "set NODE_ENV=production&&webpack",
+    "clear": "rd /s /q dist"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/antongap99/timer_pomidor.git"
@@ -15,6 +20,7 @@
   },
   "homepage": "https://github.com/antongap99/timer_pomidor#readme",
   "devDependencies": {
+    "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.0",
     "webpack-dev-server": "^4.11.1"
